@@ -1,0 +1,29 @@
+{
+  "name": "balancenetwork-launchpad",
+  "version": "1.0.0",
+  "description": "Balance Network LaunchPad v1",
+  "main": "index.js",
+  "scripts": {
+    "truffle": "truffle init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/balancenetwork.git"
+  },
+  "keywords": [
+    "Launchpad",
+    "Balance",
+    "Network",
+    "Web3",
+    "IDO",
+    "IGO",
+    "CrowdSale",
+    "Kickstarter"
+  ],
+  "author": "cooller458",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/balancenetwork/issues"
+  },
+  "homepage": "https://github.com/github.com/balancenetwork#readme"
+}
