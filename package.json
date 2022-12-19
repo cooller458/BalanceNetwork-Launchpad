@@ -4,7 +4,28 @@
   "description": "Balance Network LaunchPad v1",
   "main": "index.js",
   "scripts": {
-    "truffle": "truffle init"
+    "truffle": "truffle init",
+    "test": "truffle test",
+    "migrate-bsc": "truffle migrate --network bsc",
+    "migrate-bsc-testnet": "truffle migrate --network bsc-testnet",
+    "migrate-eth": "truffle migrate --network eth",
+    "migrate-eth-testnet": "truffle migrate --network eth-testnet",
+    "migrate-polygon": "truffle migrate --network polygon",
+    "migrate-polygon-testnet": "truffle migrate --network polygon-testnet",
+    "migrate-arbitrum": "truffle migrate --network arbitrum",
+    "migrate-arbitrum-testnet": "truffle migrate --network arbitrum-testnet",
+    "migrate-avalanche": "truffle migrate --network avalanche",
+    "migrate-avalanche-testnet": "truffle migrate --network avalanche-testnet",
+    "migrate-fantom": "truffle migrate --network fantom",
+    "migrate-fantom-testnet": "truffle migrate --network fantom-testnet",
+    "migrate-harmony": "truffle migrate --network harmony",
+    "migrate-harmony-testnet": "truffle migrate --network harmony-testnet",
+    "compile": "truffle compile",
+    "console": "truffle console",
+    "console-bsc": "truffle console --network bsc",
+    "console-bsc-testnet": "truffle console --network bsc-testnet",
+    "verify-bsc": "truffle run verify --network bsc",
+    "verify-bsc-testnet": "truffle run verify --network bsc-testnet"
   },
   "repository": {
     "type": "git",
@@ -25,5 +46,8 @@
   "bugs": {
     "url": "https://github.com/github.com/balancenetwork/issues"
   },
-  "homepage": "https://github.com/github.com/balancenetwork#readme"
+  "homepage": "https://github.com/github.com/balancenetwork#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0"
+  }
 }
